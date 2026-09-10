@@ -16,13 +16,9 @@ export function todayStr() {
   return new Date().toISOString().slice(0, 10);
 }
 
-// paid > partial > overdue > dueSoon (within 3 days) > open.
-// amountPaid comes from summed payment_allocations for this invoice, if the
-// caller has that data; is_paid still works as a manual override/quick-mark.
-export function invoiceStatus(inv, amountPaid = 0) {
-  const { total } = calcInvoiceTotals(inv.items, inv.tax_percent, inv.discount);
-  if (inv.is_paid || amountPaid >= total - 0.005) return 'paid';
-  if (amountPaid > 0) return 'partial';
+// paid > overdue > dueSoon (within 3 days) > open
+export function invoiceStatus(inv) {
+  if (inv.is_paid) return 'paid';
   if (!inv.due_date) return 'open';
   const today = todayStr();
   if (inv.due_date < today) return 'overdue';

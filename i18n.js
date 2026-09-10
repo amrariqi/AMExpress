@@ -32,11 +32,6 @@ export const STRINGS = {
     companies:'الشركات', addCompany:'إضافة شركة', createCompany:'إنشاء الشركة',
     createCompanyTitle:'أنشئ شركتك الأولى', createCompanyDesc:'كل شركة لها عملاؤها وفواتيرها وفريقها الخاص، منفصلين تمامًا.',
     companyName:'اسم الشركة', orWaitingInvite:'أو بانتظار دعوة من مالك شركة موجودة؟ اطلب منه إضافتك.', myCompanies:'شركاتي',
-    recordPayment:'تسجيل دفعة', paymentNote:'ملاحظة (اختياري)', accountTimeline:'سجل الحساب',
-    appliedTo:'خُصمت من', paymentReceived:'دفعة مستلمة', theyOweUs:'مستحق لك', creditBalance:'رصيد له لديك',
-    settled:'مسدد بالكامل', totalPaidSoFar:'إجمالي المدفوع', ofInvoiced:'من أصل', printStatement:'طباعة كشف الحساب',
-    autoAllocateHint:'تُخصم الدفعة تلقائيًا من أقدم الفواتير غير المسددة؛ أي فائض يبقى رصيدًا له.',
-    partial:'مسددة جزئيًا', statement:'كشف الحساب',
   },
   en: {
     back:'Back', cancel:'Cancel', save:'Save', signIn:'Sign in', signUp:'Create account', signOut:'Sign out',
@@ -69,11 +64,6 @@ export const STRINGS = {
     companies:'Companies', addCompany:'Add company', createCompany:'Create company',
     createCompanyTitle:'Create your first company', createCompanyDesc:'Each company has its own customers, invoices, and team — fully separate.',
     companyName:'Company name', orWaitingInvite:'Waiting for an invite from an existing company owner instead? Ask them to add you.', myCompanies:'My companies',
-    recordPayment:'Record payment', paymentNote:'Note (optional)', accountTimeline:'Account timeline',
-    appliedTo:'Applied to', paymentReceived:'Payment received', theyOweUs:'Owed to you', creditBalance:'Credit they hold with you',
-    settled:'Fully settled', totalPaidSoFar:'Total paid so far', ofInvoiced:'of', printStatement:'Print statement',
-    autoAllocateHint:'The payment is applied automatically to the oldest unpaid invoices first; any leftover stays as their credit.',
-    partial:'Partially paid', statement:'Statement',
   },
   zh: {
     back:'返回', cancel:'取消', save:'保存', signIn:'登录', signUp:'创建账户', signOut:'退出登录',
@@ -106,11 +96,6 @@ export const STRINGS = {
     companies:'公司', addCompany:'添加公司', createCompany:'创建公司',
     createCompanyTitle:'创建您的第一家公司', createCompanyDesc:'每家公司都有各自独立的客户、发票和团队。',
     companyName:'公司名称', orWaitingInvite:'在等待现有公司所有者的邀请？请让他们添加您。', myCompanies:'我的公司',
-    recordPayment:'记录付款', paymentNote:'备注（可选）', accountTimeline:'账户流水',
-    appliedTo:'已核销', paymentReceived:'收到付款', theyOweUs:'对方欠款', creditBalance:'对方在您这里的余额',
-    settled:'已结清', totalPaidSoFar:'累计已付', ofInvoiced:'/ 共', printStatement:'打印对账单',
-    autoAllocateHint:'付款会自动按从旧到新核销未付发票；剩余部分作为对方的预付余额。',
-    partial:'部分付款', statement:'对账单',
   },
 };
 
